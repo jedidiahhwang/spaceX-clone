@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 80%;
+    margin-left: 150px;
+    height: 10vh;
+    position: fixed;
+    top: 10px;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    font: 16px/26px D-DIN-Regular,Arial,Verdana,sans-serif;
+    color: WHITE;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    margin: 0px 10px;
+    top: 10px;
+}
+
+.menu {
+    color: WHITE;
+    width: 100px;
+    height: 10px;
+    position: relative;
+    justify-content: end;
+}
+
+.menu-button {
+    height: 30px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+}
+
+.hero-image {
+    background-image: URL("https://aviationweek.com/sites/default/files/styles/crop_freeform/public/2020-11/gps_iii-4_launch_streak-spacex.jpg?itok=uoyuvFBm");
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+}
+
+.hero-description {
+    width: 40%;
+    height: 20%;
+    position: absolute;
+    bottom: 10%;
+}
+
+.logo {
+    height: 50px;
+    margin: 0px 10px;
+}
+
+h3 {
+    font: 20px/32px D-DIN-Medium,Arial,Verdana,sans-serif;
+    color: #fff;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    margin-left: 150px;
+    align-items: baseline;
+    text-shadow: 0 0 7px #000;
+    flex-wrap: wrap;
+}
+
+h1 {
+    font: 50px/42.5px D-DIN-Bold,Arial,Verdana,sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-style: normal;
+    text-transform: uppercase;
+    position: relative;
+    display: flex;
+    margin-left: 150px;
+    margin-top: 10px;
+    align-items: baseline;
+    text-shadow: 0 0 7px #000;
+}
+
+.replay {
+    border: 2px solid WHITE;
+    color: WHITE;
+    background-color: transparent;
+    height: 50px;
+    width: 150px;
+    outline: none;
+    margin-left: 150px;
+    margin-top: 30px;
+    font: 16px/24px D-DIN-Medium,Arial,Verdana,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
